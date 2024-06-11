@@ -12,3 +12,13 @@
 python detect_ov.py --source './data/images/horses.jpg' --img 640 --device cpu --weights './yolov9-c-converted.pt' --name yolov9_ov
 python val_ov.py --data data/objects365_val128.yaml --img 640 --batch 32 --conf 0.001 --iou 0.7 --device cpu --weights './yolov9-c-converted.pt' --save-json --workers 4 --name ovdetection
 ```
+
+### Preview
+* The results of OV-Detection
+<img src="./assets/detect1.png">
+<img src="./assets/detect2.png">
+
+* The results of OV-Validation
+<img src="./assets/val1.png">
+<img src="./assets/val2.png">
+<img src="./assets/val3.png">
