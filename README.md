@@ -6,7 +6,7 @@
 * This repository **only** provides the `detect_ov.py` and `val_ov.py` used for OV detection.
 
 
-## Quickstart
+### Quickstart
 * run the instruction in the terminal
 ``` shell
 python detect_ov.py --source './data/images/horses.jpg' --img 640 --device cpu --weights './yolov9-c-converted.pt' --name yolov9_ov
